@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+@media only screen and (min-width: 300px) {
+    .navbar {
+        padding: 24px 30px !important;
+        background-color: #F1F3FF;
+    }
+
+    .section-padding-lr {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        left: 0;
+        top: 0;
+        background-color: #F1F3FF;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .mobile-text-center {
+        text-align: center;
+    }
+
+    .mobile-container {
+        padding-top: 20px;
+    }
+
+    .section-hero-title {
+        padding-top: 40px;
+        font-size: 36px;
+    }
+
+    .mobile-display {
+        display: none;
+    }
+
+    .car-picture {
+        padding-top: 93px;
+        float: right;
+        width: 100%
+    }
+
+    .card-carousel {
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        background-color: #F1F3FF;
+        margin: 10px;
+    }
+
+    .mobile-card-carousel {
+        padding-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dekstop-services-image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .navbar {
+        padding: 24px 60px !important;
+        background-color: transparent;
+    }
+
+    .section-padding-lr {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 0;
+        left: 0;
+        top: 0;
+        background-color: #F1F3FF;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .mobile-text-center {
+        text-align: left;
+    }
+
+    .mobile-container {
+        padding-top: 0;
+    }
+
+    .section-hero-title {
+        padding-top: 40px;
+        font-size: 36px;
+    }
+
+    .mobile-display {
+        display: inline;
+    }
+
+    .car-picture {
+        padding-top: 110px;
+        float: left;
+        width: 600px;
+    }
+
+    .card-carousel {
+        width: 650px;
+        border-radius: 8px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        background-color: #F1F3FF;
+        margin: 10px;
+    }
+
+    .mobile-card-carousel {
+        padding: 79px 34px;
+    }
+
+    .mobile-services-image {
+        display: none;
+    }
+
+    .dekstop-services-image {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        padding: 24px 136px !important;
+    }
+
+    .section-padding-lr {
+        padding-left: 136px;
+        padding-right: 136px;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 136px;
+        left: 0;
+        top: 0;
+        background-color: #F1F3FF;
+        padding-right: 0;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .mobile-text-center {
+        text-align: left;
+    }
+
+    .mobile-container {
+        padding-top: 0
+    }
+
+    .section-hero-title {
+        font-size: 36px;
+    }
+
+    .mobile-display {
+        display: inline;
+    }
+
+    .car-picture {
+        padding-top: 93px;
+        float: right;
+        width: 100%
+    }
+
+    .card-carousel {
+        width: 650px;
+        border-radius: 8px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        background-color: #F1F3FF;
+        margin: 10px;
+    }
+
+    .mobile-card-carousel {
+        padding: 79px 34px;
+    }
+}
+
+.btn-register {
+    background-color: #5CB85F !important;
+    padding: 8px 12px !important;
+}
+
+.btn-rounded {
+    border-radius: 0;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-white {
+    color: white !important;
+}
+
+.font-black {
+    color: #222222 !important;
+    font-weight: 400 !important;
+}
+
+.section-hero-desc {
+    font-family: Helvetica-Light, sans-serif;
+    font-weight: 300;
+}
+
+.section-title-24 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-title-36 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.list-padding-custom {
+    padding-right: 16px;
+}
+
+.section-padding {
+    padding-top: 100px;
+}
+
+.footer-padding {
+    padding: 100px 136px;
+}
+
+.card-custom {
+    width: 100%;
+    min-height: 206px;
+    border-radius: 8px;
+    border: solid 2px #D0D0D0
+}
+
+/*.carousel-custom {*/
+/*    display:block;*/
+/*    margin:0 auto;*/
+/*}*/
+
+.card-cta {
+    background-color: #0D28A6;
+    border-radius: 13px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cta-card-desc {
+    font-family: 'Helvetica', serif;
+    font-weight: 300;
+}
+
+.checked {
+    color: #F9CC00;
+}
+
+.carousel-button {
+    margin: 10px 12px;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border: solid #C4C4C4 1px;
+    background-color: white;
+}
+
+.carousel-button:hover {
+    background-color: #5CB85F;
+}
+
+.label {
+    font-family: 'Rubik', sans-serif !important;
+    color: #3C3C3C;
+}
+
+.label-text {
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+}
+
+.label-placeholder {
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8A8A !important;
+}
+
+.label-placeholder .ant-picker-input>input::placeholder {
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8A8A !important;
+}
+
+.input-style {
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    width: 100%;
+    height: 36px;
+}
+
+.ant-picker-now-btn {
+    text-decoration: none !important;
+}
+
+.ant-picker-today-btn {
+    text-decoration: none !important;
+}
+
+.global-margin {
+    padding-left: 196px;
+    padding-right: 196px;
+}
+
+.fw-light {
+    font-family: Helvetica-Light, sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+    padding: 0 !important;
+    margin-bottom: 16px !important;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+    padding: 0 !important;
+}
+
+.product-category {
+    font-size: 10px;
+}
